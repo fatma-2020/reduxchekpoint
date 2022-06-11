@@ -1,0 +1,67 @@
+.task {
+  display: inline-flex;
+  justify-content: space-between;
+  height: 60px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  margin: 10px 10px 7px 10px;
+  border-radius: 10px;
+  background-color: #d3e3eb;
+}
+.desc {
+  margin-top: 18px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: #2f3031;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.inputedit {
+  padding-left: 15px;
+  height: 40px;
+  width: 150px;
+  border-radius: 8px;
+  border: #248bbb;
+  font-size: 15px;
+  margin: 9px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.btns {
+  margin: 10px;
+}
+.taskbtns {
+  margin-left: 10px;
+}
+
+.taskbtns {
+  height: 40px;
+  width: 90px;
+  background-color: #2b81eb;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-weight: bold;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.taskbtns:hover,
+.taskbtns:focus {
+  background-color: #f3bad0;
+}

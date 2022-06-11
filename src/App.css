@@ -1,7 +1,10 @@
 .App {
   text-align: center;
+  margin-top: 10px;
 }
-
+body {
+  background-color:  #fdedf6;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +38,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+.title {
+  color: #424134;
+  font-family: "Trocchi", serif;
+  font-size: 45px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0;
+  font-weight: bold
 }
